@@ -80,16 +80,85 @@
 
 
 #13
-n1 = int(input('qual o salario?'))
+#n1 = int(input('qual o salario?'))
 
-s = 15%-n1
+#s = 15%-n1
 
-print('o salario com o almento de 15% é{}'.format(s))
+#print('o salario com o almento de 15% é{}'.format(s))
 
-#AULA 13
-
-
+#AULA006
 
 
 
 
+#n = int(input('Digite um número:'))
+
+#print('O dobro de {} vale {}.'.format(n, (n*2)))
+#print(' triplo de {}. \n A raiz quadrada de {} é igual {}'.format(n,(n*3), n, pow(n, (1/2))))
+
+
+
+#Aula007
+#n1 = float(input('Primeira nota do aluno:'))
+#n2 = float(input('Segunda nota do aluno:'))
+#média = (n1 + n2) / 2
+#print('A media entre {:.1f} e {:.1f} é igual a {:.1f}'.format(n1, n2, média))
+
+
+
+#aula008
+
+#medida = float(input('Uma distância em metroa: '))
+#cm = medida * 100
+#mm = medida * 1000
+#print('A mediada de {}m corresponde a {}cm e {}mm'.format(medida, cm , mm))
+
+
+#aula009
+#num  = int(input('Digite um numero para ver sua tabuada: '))
+#print('-'*12)
+#print('{} * {:2} = {}'.format(num, 1 , num*1))
+#print('{} * {:2} = {}'.format(num, 2, num*2))
+#print('{} * {:2} = {}'.format(num, 3 ,num*3))
+#print('{} * {:2} = {}'.format(num, 4 ,num*4))
+#print('{} * {:2} = {}'.format( num, 5 , num*5))
+#print('{} * {:2} = {}'.format(num, 6,num*6))
+#print('{} * {:2} = {}'.format(num, 7 ,num*7))
+#print('{} * {:2} = {}'.format(num, 8 ,num*8))
+#print('{} * {:2} = {}'.format(num , 9 , num*9))
+#print('{} * {:2} = {}'.format(num , 10 , num*10))
+#print('-'*12)
+
+
+
+#aula0010
+
+#real = float(input('Quanto dinheiro você tem na carteira? R$'))
+#dolar = real / 3.27
+#print('Com R${:.2f}voçê pode comprar Us{:.2f}'.format(real, dolar))
+
+
+#aula0011
+
+
+#larg = float(input('lLargura da parede?'))
+#alt = float(input('Autura da parede:'))
+#área = larg * alt
+#print('Sua parede tem a dimenção de {}*{} e sua área é de {}mª.'.format(larg, alt, área))
+#tinta = área / 2
+#print('Para pintar essa parede,voçê precisará de {}l de tinta.'.format(tinta))
+
+#aula0012
+
+#preço = float(input('Qual o preço do produto? R$'))
+#novo = preço - (preço * 5  / 100)
+#print ('O produto que custava R${:.2f}, na promoção com desconto de 5% vai custar R${:.2f}'.format(preço, novo))
+
+
+#salario = float(input('Qual é o saláro do funcionario:'))
+#novo = salario + (salario * 15 / 100)
+#print('Um funconario que ganhava R${}, com 15% de aumento,passa a receber R${}'.format(salario, novo))
+
+
+#aula0013
+#22
