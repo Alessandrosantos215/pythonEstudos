@@ -160,5 +160,91 @@
 #print('Um funconario que ganhava R${}, com 15% de aumento,passa a receber R${}'.format(salario, novo))
 
 
-#aula0013
-#22
+#aula0014
+#c = float(input('Informe a temperatura emºC: '))
+#f = 9 * c / 5 + 32
+#print('A temperatura de {}ºC corresponde a {}ºF!'.format(c, f))
+
+#aula0015
+#dias = int(input('quantosd dias alugados?'))
+#km = float(input('Quantos Km rodado?'))
+#pago = (dias * 60) +  (km * 0.15)
+#print('O total a pagar é de R${:.2f}'.format(pago))
+
+
+#aula0016
+#n1 = int(input(('Digite um numero inteiro:')))
+#n2 = float + n1
+
+#print('O numro inteiro{} e o seu fracionamento {}'.format(n1, n2 ))
+
+from math import trunc
+#num = float(input('Digite um valor:'))
+#print("O valor digitado foi {} e a sua porção inteira é {}".format(num, trunc(num)))
+
+#num = float(input('Digite um valor: '))
+#print('O valor digitado foi {}e a sua porção inteira é {}'.format(num, int(num)))
+
+
+#aula0017
+
+#co = float(input('Comprimento do cateto oposto: '))
+#ca = float(input('Comprimento do cateto adjacente: '))
+#hi = (co ** 2 + ca ** 2)  ** (1/2)
+#print ('A hipotenusa vai medir {:.2f}'.format(hi))
+
+
+
+#import math
+#co = float(input('Comprimento do cateto oposto: '))
+#ca = float(input('Comprimento do cateto adjacente:' ))
+#hi = math.hypot(co, ca)
+#print('A hipotenusa vai medir {:.2}'.format(hi))
+
+
+#aula0018
+
+#import math
+#ângulo = float(input('Digite o ângulo que voce deseja:'))
+#seno = math.sin(math.radians(ângulo))
+#print('O ângulo de {}tem o SENO de {:.2f}'.format(ângulo, seno))
+#cosseno = math.cos(math.radians(ângulo))
+#print('O ângulo de {} tem cosseno de {:.2f}'.format(ângulo, cosseno))
+#tangente = math.tan(math.radians((ângulo)))
+#print ('Oângulo de {}tem a TANGENTE de {:.2f}'.format(ângulo, tangente))
+
+
+#import random
+#from ramdom import choice
+
+#n1 = str(input('Primeiro aluno:'))
+#2 = str(input('Segundo aluno:'))
+#n3 = str(input('Terçeiro aluno:'))
+#n4 = str(input('Quarto aluno:'))
+#lista= [n1, n2, n3, n4]
+#escolhido = random.choice(lista)
+#print("O aluno escolhido foi {}".format(escolhido))
+
+
+import random
+#n1 = str(input('Primeiro aluno'))
+#n2 = str(input('Segundo anuno'))
+#n3 = str(input('Terceiro aluno'))
+#n#4 = str(input('Quarto aluno'))
+#lista = [n1, n2, n3, n4]
+#random.shuffle(lista)
+#print('A ordem de apresentação será')
+#print(lista)
+
+
+#exercicio21
+#import pygame
+#pygame.init()
+#pygame.mixer.music.load('ex21.mp3')
+#pygame.mixer.music.playa()
+#pygame.event.wait()
+
+#frase = 'Curso de video python'
+#print(frase[:13])
+
+
